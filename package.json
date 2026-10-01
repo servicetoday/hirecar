@@ -1,0 +1,15 @@
+{
+  "name": "lemo-australia",
+  "version": "1.0.0",
+  "description": "LIMO Australia chauffeur and limousine booking website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0"
+  }
+}

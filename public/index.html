@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LIMO Australia premium chauffeur and limousine services across Australia.">
+  <title>LIMO Australia | Driven by Excellence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="LIMO Australia home">
+      <span class="brand-name">LIMO</span>
+      <span class="brand-subtitle">AUSTRALIA</span>
+      <span class="brand-rule"></span>
+      <span class="brand-caption">PREMIUM CHAUFFEUR &amp; LIMOUSINE SERVICE</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="active" href="/">Home</a>
+      <a href="/services.html">Services</a>
+      <a href="/fleet.html">Fleet</a>
+      <a href="/airport-transfers.html">Airport Transfers</a>
+      <a href="/locations.html">Locations</a>
+      <a href="/about.html">About Us</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a class="phone-link" href="tel:0424135786"><span class="phone-icon">⌕</span> 0424 135 786</a>
+      <a class="button button-gold button-small" href="/#booking">Book now</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Premium chauffeur &amp; limousine service</p>
+        <h1 id="hero-title">Driven by Excellence.<br><span>Anywhere in Australia.</span></h1>
+        <p class="hero-copy">Professional chauffeurs. Luxury vehicles.<br>Exceptional service across every city and<br class="desktop-only"> destination in Australia.</p>
+        <div class="hero-buttons">
+          <a class="button button-gold" href="#booking">Book now</a>
+          <a class="button button-outline" href="#fleet">Our fleet</a>
+        </div>
+      </div>
+      <div class="booking-card" id="booking">
+        <form id="quote-form">
+          <div class="field"><label for="pickup">Pick-up location</label><div class="input-shell"><span class="field-icon">●</span><input id="pickup" name="pickup" placeholder="Enter pickup location" required></div></div>
+          <div class="field"><label for="dropoff">Drop-off location</label><div class="input-shell"><span class="field-icon">●</span><input id="dropoff" name="dropoff" placeholder="Enter drop-off location" required></div></div>
+          <div class="field"><label for="serviceDate">Date</label><div class="input-shell"><span class="field-icon">▣</span><input id="serviceDate" name="serviceDate" type="date" required></div></div>
+          <div class="field"><label for="serviceTime">Time</label><div class="input-shell"><span class="field-icon">◷</span><input id="serviceTime" name="serviceTime" type="time" required></div></div>
+          <div class="field"><label for="vehicle">Vehicle</label><div class="input-shell"><span class="field-icon">▰</span><select id="vehicle" name="vehicle" required><option value="">Select vehicle</option><option>Mercedes-Benz S-Class</option><option>Mercedes-Benz V-Class</option><option>BMW 7 Series</option><option>Luxury SUV</option></select></div></div>
+          <button class="button button-gold quote-button" type="submit">Book now</button>
+          <div class="quote-details" aria-hidden="true">
+            <div class="field"><label for="name">Your name</label><div class="input-shell"><input id="name" name="name" placeholder="Full name"></div></div>
+            <div class="field"><label for="phone">Phone</label><div class="input-shell"><input id="phone" name="phone" type="tel" placeholder="0424 135 786"></div></div>
+            <div class="field"><label for="email">Email</label><div class="input-shell"><input id="email" name="email" type="email" placeholder="you@example.com"></div></div>
+          </div>
+        </form>
+        <p class="form-status" id="form-status" role="status"></p>
+      </div>
+    </section>
+
+    <section class="service-strip" id="services" aria-label="Our services">
+      <article class="service-item"><span class="service-icon">✈</span><div><h2>Airport transfers</h2><p>On-time, every time.<br>Stress-free airport transportation.</p></div></article>
+      <article class="service-item"><span class="service-icon">♙</span><div><h2>Hourly chauffeur</h2><p>Book by the hour for business,<br>events or personal travel.</p></div></article>
+      <article class="service-item"><span class="service-icon">▥</span><div><h2>Corporate travel</h2><p>Executive travel solutions<br>for professionals.</p></div></article>
+      <article class="service-item"><span class="service-icon">♧</span><div><h2>Weddings &amp; events</h2><p>Make your special day<br>even more memorable.</p></div></article>
+      <article class="service-item"><span class="service-icon">⌖</span><div><h2>Australia wide</h2><p>Services across all major cities<br>and regional areas.</p></div></article>
+    </section>
+
+    <section class="nationwide section-light" id="locations">
+      <div class="section-copy"><p class="eyebrow eyebrow-dark">Nationwide service</p><h2>Australia Wide Chauffeur &amp;<br>Limousine Services</h2><p>From city streets to coastal escapes, LIMO Australia delivers premium chauffeur services in all major cities and regional destinations.</p></div>
+      <ul class="benefits"><li>24/7 Service</li><li>Professional Chauffeurs</li><li>Luxury Fleet</li><li>Reliable &amp; Punctual</li></ul>
+      <div class="map-graphic" aria-label="Australia wide service coverage"><span class="map-label">AUSTRALIA<br>WIDE</span><span class="pin pin-darwin">Darwin</span><span class="pin pin-cairns">Cairns</span><span class="pin pin-brisbane">Brisbane</span><span class="pin pin-sydney">Sydney</span><span class="pin pin-melbourne">Melbourne</span><span class="pin pin-adelaide">Adelaide</span><span class="pin pin-perth">Perth</span></div>
+    </section>
+
+    <section class="fleet section-dark" id="fleet"><div><p class="eyebrow">Travel in distinction</p><h2>The LIMO fleet</h2><p>Arrive calm, composed and ready for what comes next. Every vehicle is selected for comfort, privacy and presence.</p><a class="button button-outline" href="#contact">Explore our fleet</a></div><div class="fleet-car" role="img" aria-label="Luxury black Mercedes sedan"></div></section>
+
+    <section class="contact section-light" id="about"><p class="eyebrow eyebrow-dark">Make an impression</p><h2>Luxury service, thoughtfully delivered.</h2><p>From your first enquiry to the moment you arrive, our team handles every detail with discretion and care.</p><a class="button button-gold" href="#booking">Plan your journey</a></section>
+  </main>
+
+  <footer class="site-footer" id="contact"><div class="footer-brand"><span class="brand-name">LIMO</span><span>AUSTRALIA</span></div><p>Premium chauffeur &amp; limousine service</p><a href="tel:0424135786">0424 135 786</a><span>© 2026 LIMO Australia</span></footer>
+  <script src="/app.js"></script>
+</body>
+</html>

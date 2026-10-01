@@ -1,0 +1,17 @@
+CREATE DATABASE IF NOT EXISTS lemo_australia;
+USE lemo_australia;
+
+CREATE TABLE IF NOT EXISTS quotes (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  pickup_location VARCHAR(255) NOT NULL,
+  dropoff_location VARCHAR(255) NOT NULL,
+  service_date DATE NOT NULL,
+  service_time TIME NOT NULL,
+  vehicle VARCHAR(100) NOT NULL,
+  customer_name VARCHAR(150) NOT NULL,
+  phone VARCHAR(40) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS bookings LIKE quotes;

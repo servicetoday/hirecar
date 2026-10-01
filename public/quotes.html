@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>All quotes | LIMO Australia</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/bookings.css">
+  <script src="/quotes.js" defer></script>
+</head>
+<body>
+  <header class="bookings-header"><a href="/" aria-label="LIMO Australia home"><span class="brand-name">LIMO</span><span class="brand-subtitle">AUSTRALIA</span></a><a href="/">Back to website &rarr;</a></header>
+  <main>
+    <nav aria-label="Booking views"><a href="/bookings.html">View today's bookings &rarr;</a></nav>
+    <p class="eyebrow">Quote requests</p>
+    <div class="heading"><div><h1>All quotes</h1><p id="date-label">Every submitted request, newest first.</p></div><button id="refresh" class="button button-gold" type="button">Refresh quotes</button></div>
+    <div class="summary"><strong id="count">&mdash;</strong><span>Total quotes</span><span id="updated"></span></div>
+    <p id="status" role="status" aria-live="polite">Loading quotes...</p>
+    <div id="table-wrap" class="table-wrap" hidden>
+      <table><caption class="sr-only">All quote requests, newest first</caption><thead><tr><th scope="col">Journey date / ID</th><th scope="col">Customer</th><th scope="col">Journey</th><th scope="col">Vehicle</th><th scope="col">Contact</th></tr></thead><tbody id="quotes"></tbody></table>
+    </div>
+    <p class="note">Includes requests for all journey dates. Journey times are shown in Sydney time.</p>
+  </main>
+</body>
+</html>

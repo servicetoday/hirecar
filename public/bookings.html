@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Today's bookings | LIMO Australia</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/bookings.css">
+  <script src="/bookings.js" defer></script>
+</head>
+<body>
+  <header class="bookings-header"><a href="/" aria-label="LIMO Australia home"><span class="brand-name">LIMO</span><span class="brand-subtitle">AUSTRALIA</span></a><a href="/">Back to website &rarr;</a></header>
+  <main>
+    <nav aria-label="Booking views"><a href="/quotes.html">View all quotes &rarr;</a></nav>
+    <p class="eyebrow">Daily schedule</p>
+    <div class="heading"><div><h1>Today's bookings</h1><p id="date-label">Journeys scheduled today · Sydney time</p></div><button id="refresh" class="button button-gold" type="button">Refresh bookings</button></div>
+    <div class="summary"><strong id="count">—</strong><span>Bookings today</span><span id="updated"></span></div>
+    <p id="status" role="status" aria-live="polite">Loading bookings…</p>
+    <div id="table-wrap" class="table-wrap" hidden>
+      <table><caption class="sr-only">Today's bookings, ordered by pickup time</caption><thead><tr><th scope="col">Time / ID</th><th scope="col">Customer</th><th scope="col">Journey</th><th scope="col">Vehicle</th><th scope="col">Contact</th></tr></thead><tbody id="bookings"></tbody></table>
+    </div>
+    <p class="note">Bookings scheduled for today. Times are shown in Sydney time.</p>
+  </main>
+</body>
+</html>

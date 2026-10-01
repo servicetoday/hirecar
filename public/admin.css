@@ -1,0 +1,8 @@
+.admin-panel { display: grid; gap: 12px; background: white; padding: 28px; border: 1px solid #e0dcd3; }
+#login-form { max-width: 420px; }
+.admin-panel h2 { margin: 0 0 12px; }.admin-panel label { font-size: 14px; font-weight: 700; }
+.admin-panel input,.admin-panel textarea { width: 100%; border: 1px solid #999; background: white; color: #17191d; padding: 12px; font: inherit; }
+.admin-panel textarea { resize: vertical; }.admin-layout { display: grid; grid-template-columns: minmax(260px, 360px) 1fr; gap: 32px; align-items: start; }
+.editor-actions { display: flex; gap: 12px; flex-wrap: wrap; }.admin-car { background: white; border: 1px solid #e0dcd3; margin: 18px 0; padding: 20px; display: flex; gap: 20px; align-items: start; }
+.admin-car img { width: 120px; height: 90px; object-fit: cover; background: #eee; }.admin-car h3 { margin: 0; }.admin-car p { overflow-wrap: anywhere; line-height: 1.5; }.admin-car .button { padding: 10px 16px; border: 1px solid #d0ccc3; margin-right: 8px; }.delete { color: #a12828; }#message { min-height: 24px; }#message.error { color: #a12828; }
+@media(max-width:800px) { .admin-layout { grid-template-columns: 1fr; }.admin-car { flex-direction: column; }.admin-car img { width: 100%; height: 180px; } }
